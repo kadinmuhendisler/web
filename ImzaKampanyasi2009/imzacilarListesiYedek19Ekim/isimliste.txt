@@ -1,0 +1,157 @@
+﻿1.#Özdeş#Bodur#Gıda Mühendisi#İSTANBUL#
+2.#Suzan#Bayhan#Bilgisayar Mühendisi#İSTANBUL#
+3.#UNZILE #BATMANLAR#MİMAR#İSTANBUL#
+4.#selma#eroğlu#makina mühendisi#İSTANBUL#
+5.#Beyhan#Tayat Orman#Endüstri Mühendisi#İSTANBUL#
+6.#Günce#Çiftçi#Elektrik-Elektronik Mühendisi#ANKARA#
+7.#Nükhet#Özkan#Endüstri Mühendisi#İSTANBUL#
+8.#rana#arıbaş#elektronik ve haberleşme mühendisi#AKSARAY#
+9.#Senem #Donatan#Kimya Mühendisi#İSTANBUL#
+10.#Behice#Çağlar#makine mühendisi#İSTANBUL#
+11.#Sibel#Erkutlu#Gıda Yüksek Mühendısı#YURTDIŞI#
+12.#Güneş#Bodur#Metalurji Mühendisi#İSTANBUL#
+13.#Elif#Aksu Kaya #Uzay Mühendisi#İSTANBUL#
+14.#Aliye #Yılmaz#Jeoloji Mühendisi#ANKARA#
+15.#Suzan#Karaibrahimoğlu#Jeoloji mühendisi#İSTANBUL#
+16.#Yelda#ADEMOĞLU#Jeodezi ve Fotogrametri Yüksek Mühendisi#İSTANBUL#
+17.#Tuba#Ayhan#Elektronik Müh.##
+18.#Burcu#Özizmirli#Şehir Plancısı#İZMİR#
+19.#Zerrin#Özirs Öztan#Kimya Mühendisi#İZMİR#
+20.#Sevinc#Adabasi#Elektrik Muhendisi#İSTANBUL#
+21.#Esmeray#Yogun#Akademik İşçi#İÇEL#
+22.#Boran Başak#Koç#Elektrik Mühendisi#İSTANBUL#
+23.#Nergis#Uygun Baş#Makina Mühendisi#ESKİŞEHİR#
+24.#Dilay#YILDIRIM#İnşaat Mühendisi#MANİSA#
+25.#perihan#YILMAZ#emekli mat-öğrt.(kimya yüksek müh) kız annesiyim#İZMİR#
+26.#Ayse #Asatekin#Kimya muhendisi#ANKARA#
+27.#Sezen#Curgul#Makina muhendisi#YURTDIŞI#
+28.#mustafa#tan#bilgisayar mühendisi#İSTANBUL#
+29.#Gözde#Demirelli#Psikolojik Danışman, Aile Danışmanı.#İSTANBUL#
+30.#buket#aydemir#çevre mühendisi#İSTANBUL#
+31.#koncay#özyazıcı#kimya mühendisi#İSTANBUL#
+32.#Ecem #Edis#Mimar#İSTANBUL#
+33.#Mehtap#Demir#Endustri Muhendisi#ANKARA#
+34.#refika#kök#mühendis#KAYSERİ#
+35.#Serap#Leventoğlu#Elektronik Mühendisi#İSTANBUL#
+36.#duygu#çömen#makina mühendisi#İZMİR#
+37.#ebru#sorgun#psikolog#İSTANBUL#
+38.#oya#benlioğlu güleşan#Elektrik elektronik mühendisi#İSTANBUL#
+39.#Pınar#Hocaoğulları#Elektronik ve Haberleşme Mühendisi#İSTANBUL#
+40.#sonay#genç#endüstrimühendisi#SAKARYA#
+41.#Belgin#OFLAZOĞLU ORKUNOĞLU#MİMAR#İSTANBUL#
+42.#meryem#kayan#çevre mühendisi#İSTANBUL#
+43.#Emek#Eren#Çevre Mühendisi#İSTANBUL#
+44.#Nurcan#Turan#Şehir Plancısı#ANKARA#
+45.#Mehlika#Erdemir#Kimya Mühendisi#ANKARA#
+46.#emra#ergüzeloğlu#maden mühendisi#ANKARA#
+47.#ayşen#hadimioğlu#jeo. muh#ANKARA#
+48.#Emel#AKPINAR#Yazılım Mühendisi#ANKARA#
+49.#ÖZGE#TARHAN#Maden Mühendisi#ESKİŞEHİR#
+50.#Gülşen#Kahraman#Makina Mühendisi#İSTANBUL#
+51.#Nebahat #Gümüşboğa#Mühendis#İSTANBUL#
+52.#öncül #kırlangıç#mimar#İSTANBUL#
+53.#ozge#ibis#Test Muhendisi#ANKARA#
+54.#Işık#Gürbulak#Elektronik ve Haberleşme Mühendisi#İSTANBUL#
+55.#ilke#akgöl#Elektronik Mühendisi#ANKARA#
+56.#Nesrin#Uçarlar#Akademisyen#İSTANBUL#
+57.#Hakkı#Elbir#Maden Mühendisi#ANKARA#
+58.#NAZAN#ÖZSOY#MADEN MÜHENDİSİ#İSTANBUL#
+59.#Pelin#Yılmaz#Maden Mühendisi#İSTANBUL#
+60.#Gönül Sevinç#GÜL#Kimya Mühendisi#İZMİR#
+61.#neriman#usta#elektronik mühendisi#BURSA#
+62.#Yasemin #Öz#Avukat#İSTANBUL#
+63.#çiğdem#ŞAHİN#maden mühendisi#ANKARA#
+64.#yıldız#akın#inşaat mühendisi#İSTANBUL#
+65.#Ikbal#Cetiner#Mimar#İSTANBUL#
+66.#Bennur#Karcıoğlu#Elek.Yük.Müh.#İSTANBUL#
+67.#Erşat#Akyazılı#maden mühendisi#KARS#
+68.#hülya#gökpınar#şehir plancısı#ANKARA#
+69.#BURCU#ÇAMLIBEL#şehir plancısı#SAMSUN#
+70.#adil#aytekin#maden mühendisi#ANKARA#
+71.#Dilek#Üstünalan#Bilgisayar Mühendisi#İSTANBUL#
+72.#sinan#serin#mühendis #İSTANBUL#
+73.#Cansel#ASLAN#Elektrik-Elektronik Müh.#DENİZLİ#
+74.#sönmez#belen#ziraat yük mühendisi#SAMSUN#
+75.#Elif Nazan#ŞEKER#Metalurji Malzeme Mühendisi#İSTANBUL#
+76.#EBRU#KABABULUT#elektrik elektronik mühendisi#İZMİR#
+77.#sercan#özkoluaçık#çevre mühendisi#ANKARA#
+78.#AYŞEGÜL#YALÇINKAYA#PSİKOLOG#SAMSUN#
+79.#Özlem#ALTINÇELİK#Maden Mühendisi#ANKARA#
+80.#gülcan #kırca#makina mühendisi#İSTANBUL#
+81.#Bülent #Şentürk#Dr.Maden Y. Mühendisi#İSTANBUL#
+82.#Melih#Çelikkol#Maden Mühendisi#İSTANBUL#
+83.#Fatma#Özarın#Maden Mühendisi#İSTANBUL#
+84.#Ozgur#Akkoyun#Maden Mühendisi (MSc, PhD)#DİYARBAKIR#
+85.#orhan#sayla#Maden mühendisi#İSTANBUL#
+86.#İLKAY#ÇELİK#Maden Mühendisi#MUĞLA#
+87.#Maya#Arıkanlı#İşletme Mühendisi#İSTANBUL#
+88.#Gülçin #Yücel#End.Yük. Mühendisi#İSTANBUL#
+89.#Selma#TOSUN#Maden Mühendisi#MUĞLA#
+90.#levent#arslan#gemi mühendisi#İSTANBUL#
+91.#Güllü#Gürsoy#Makina Mühendisi#DENİZLİ#
+92.#FATMA#ŞAHİN#MADEN MÜHENDİSİ#BURSA#
+93.#sevinç#karaca#sağlık çalışanı#İZMİR#
+94.#EBRU #ASLAN#Elektrik-Elektronik Mühendisi#MANİSA#
+95.#Nihan#Acar#Gıda Mühendisliği öğrencisi#İSTANBUL#
+96.#sultan#güzel#muhasebe#İZMİR#
+97.#Özlem#Sezer#Elektronik Mühendisi#İSTANBUL#
+98.#Fatma#Benli#avukat#İSTANBUL#
+99.#Dursun #Bayrak#Jeoloji Mühendisi#ANKARA#
+100.#Ezgi#Köse#Öğrenci#ANKARA#
+101.#nergis#ince#Elektrik Mühendisi#İZMİR#
+102.#derya #özkar#maden yüksek müh.#ESKİŞEHİR#
+103.#Hale#Kolay#Elektronik Mühendisi#İZMİR#
+104.#Özge #Göncü#mimar#ANKARA#
+105.#Seda#Bingol#cevre muhendisi#ALMANYA#
+106.#NAMIK#CİBAROĞLU#elektronik##
+107.#A.Ekrem#Yüce#Öğretim Üyesi#İSTANBUL#
+108.#belgin#mert#metalurji Mühendisi#İSTANBUL#
+109.#ümit#Erdinler#jeoloji mühendisi#ANKARA#
+110.#Şehri#Karayel#Kimyager#İSTANBUL#
+111.#Bülent #Bayraktaroğlu#Maden Yüksek Mühendisi#ANKARA#
+112.#Bahar#SAĞLAM#Gıda Mühendisliği öğrecisi#İSTANBUL#
+113.#Aslı#Erdoğan#Öğrenci#İSTANBUL#
+114.#irem#yüksekol#inşaat mühendisi#ANKARA#
+115.#Ezgi#Şahin#öğrenci#ANKARA#
+116.#Şükran#TUNCER#Çevre Mühendisi#İSTANBUL#
+117.#Mustafa Noyan#Arat#Öğrenci#İSTANBUL#
+118.#Serhat #Bozkurt#Tarihçi#İSTANBUL#
+119.#Merve#Bozcu#Öğrenci#İSTANBUL#
+120.#Sevgi #Akagündüz#Harita Mühendisi#İZMİR#
+121.#hüseyin#urcan#mühendislik öğrencisi#İSTANBUL#
+122.#Şenay#Çağıran#Kim. Y. Müh.#İZMİR#
+123.#İlker Ufuk #FİL#Maden mühendisi#KOCAELİ#
+124.#ahmet ali#çoban#öğrenci#İSTANBUL#
+125.#Esma#Şenel#Araştırma görevlisi#YURTDIŞI#
+126.#Gamze#Söylev#Öğrenci#ANKARA#
+127.#Banu#Gemici Ozkan#industrial Engineer, Ph.D.#YURTDIŞI#
+129.#Seyit Ahmet#IRAK#Maden Mühendisi#ARTVİN#
+130.#Sinan#Dinler#Maden Mühendisi#KASTAMONU#
+131.#Huriye Nur#DEĞİRMENCİOĞLU#Elektronik ve Haberleşme Mühendisi#İSTANBUL#
+132.#zarif#demir#muhasebe#İSTANBUL#
+132.#nuray#kaya#sigortacı#ANKARA#
+133.#bengi#aygün#araştırma görevlisi#İSTANBUL#
+134.#aycan #tekin#öğrenci#İZMİR#
+135.#SONNUR #ERCAN#KİMYA MÜHENDİSİ#ADANA#
+136.#Özlem#Kizir#Kimya Mühendisi#İSTANBUL#
+137.#Elçin#Tunçer#Makina Müh#İSTANBUL#
+138.#öznur#ünlü#maden mühendisi#ANKARA#
+139.#seda#pala#makine ve endüstri mühendisi#KAYSERİ#
+140.#Oktay#GÜLAĞACI#inşaat Mühendisi#İSTANBUL#
+141.#Mahmut Şevket#ÇURABAY#Maden Mühendisi#ANKARA#
+142.#ERTUĞRUL#BARKA#KİMYA MÜHENDİSİ#İZMİR#
+143.#ÇAĞLAYAN#BARKA#KİMYA MÜHENDİSİ#İZMİR#
+144.#hulya#uz#makina müh.#KARS#
+145.#misten####
+146.#şeyma#akdemir#maden mühendisi#KASTAMONU#
+147.#Sayime#Çelik#Elektrik-elektronik mühendisi(KOBİ Uzman yardımcısı)#GAZİANTEP#
+148.#Ayşe Esra#Koç#Ziraat Müh. (emekli)#İSTANBUL#
+149.#Kemal#Turgul#Ogrenci#İSTANBUL#
+150.#ayfer#güçlü aras#kimya mühendisi#ANKARA#
+151.#Mehmet Ufuk#PEKER#Kamu Emekçisi#İZMİR#
+152.#Sevgi #PEKER#İşsiz#İZMİR#
+153.#Muzaffer#SÖNMEZ#Kimya Y. Mühendisi#ANKARA#
+154.#SERAP#UÇURAN#Elektrik Mühendisi#ANKARA#
+155.#Fatma#Ozyildirim#Bilgisayar Muhendisi#ANKARA#
+156.#Onur#Kunduracı#Maden Mühendisi#ANKARA#
+157.#Onur#Kunduracı#Maden Mühendisi#ANKARA#

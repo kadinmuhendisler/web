@@ -1,0 +1,105 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ImzaKampMaster.master.cs" Inherits="ImzaKampMaster" %>
+<%@ Register Assembly="Tek4.Web.UI.CustomControls.LastModified" Namespace="Tek4.Web.UI.CustomControls.LastModified"
+    TagPrefix="cc1" %>
+<%@ Register Assembly="BasicFrame.WebControls.BasicDatePicker" Namespace="BasicFrame.WebControls"
+    TagPrefix="BDP" %>
+<%@ Register TagPrefix="Tek4"  Namespace="Tek4.Web.UI.CustomControls.LastModified"  Assembly="Tek4.Web.UI.CustomControls.LastModified, Version=1.0.0.0, Culture=neutral, PublicKeyToken=26c804c56bafc725" %>
+ 
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1254" />
+<link runat="server" rel="stylesheet" href="kmstyle.css" />
+     <title>Kadın Mühendisler Grubu</title>
+</head>
+<body style="background-color: #8582B7 ;  margin-top : 60px; background-image:url('images/bgDenemeler.jpg');  margin-bottom: 30px" onload="preloadImages();">
+   
+    <form id="form1" runat="server">
+    <center>       
+    <table border="0" cellpadding="0"  style="width: 92%" cellspacing="0" id="TABLE1" onclick="return TABLE1_onclick()">
+        <!--TOP MENU-->
+        <tr>
+            <td align="center" colspan="3" style="height: 128px; text-align: left; background-color:#9932cc;" valign="bottom">
+              <div id="ImageBaslik" align="center" >
+                  <span style="font-size: 24pt; color: #ffffff">
+                      <br />
+                      <br />
+                      <br />
+                      DİPLOMALAR PEMBE VEYA MAVİ Mİ Kİ?</span></div></td>
+        </tr> <!--LOGO KM-->
+        <tr>
+          
+          <td colspan="3" align="center" style="text-align: right; height: 2px;  background-color: white; border-bottom-width: thin; border-bottom-color: #9932cc; border-top-style: none; border-right-style: none; border-left-style: none;">
+              
+              <span class="kmTopMenu">
+                    <a href="Default2.aspx"></a></span></td>
+                </tr> <!-- Date Label-->
+        <tr valign="top">
+        <td style="background-color: white; text-align: left; width: 20%;" align="left" rowspan="2">
+        <span class="siyahyazibuyuk">
+                                <img id="KM_Logo" runat="server" src="ImzaKampanyasi2009/images/Logo.jpg" title="Logo tasarımımızı yapan Cargo Tanıtım'dan Ekin Dirik'e çok teşekkür ederiz. " alt="Logo tasarımımızı yapan Cargo Tanıtım'dan Ekin Dirik'e çok teşekkür ederiz. " /><br />
+            <br /><a href="Kampanya2009Duyur.aspx"><span class="siyahyazibuyuk">
+            Diplomalar Pembe Veya Mavi mi ki?</span></a><br />
+            <a href="Kampanya2009Duyur.aspx">
+            <span class="siyahyazibuyuk"> </span>
+            </a><a href="Kampanya2009Imzacilar.aspx">
+             <span class="siyahyazibuyuk">İmzacılar</span><br />
+            </a>
+            <br />
+            <br />
+            "Bayan Mühendis" &nbsp;Diploması <a href="ImzaKampanyasi2009/diplomalar/kadin diploma_Muhendis.pdf" target="_blank">
+                <span class="tatlimor" style="font-size: 7pt">[pdf]</span></a><a href="ImzaKampanyasi2009/diplomalar/kadin diploma_Muhendis.png" target="_blank"><span class="tatlimor" style="font-size: 7pt">[png]</span></a><br />
+            "Bayan Mimar" Diploması <a href="ImzaKampanyasi2009/diplomalar/kadin diploma MIMAR.pdf" target="_blank">
+                <span class="tatlimor" style="font-size: 7pt">[pdf]</span></a><a href="ImzaKampanyasi2009/diplomalar/kadin diploma MIMAR.png" target="_blank"><span class="tatlimor" style="font-size: 7pt">[png]</span></a><br />
+            "Bayan Şehir Plancı" Diploması <a href="ImzaKampanyasi2009/diplomalar/kadinDiplomaSehirPlanci.pdf" target="_blank"><span class="tatlimor" style="font-size: 7pt">[pdf]</span></a><a href="ImzaKampanyasi2009/diplomalar/kadinDiplomaSehirPlanci.png" target="_blank"><span class="tatlimor" style="font-size: 7pt">[png]</span></a><br />
+            "Bay Mühendis" Diploması <a href="ImzaKampanyasi2009/diplomalar/erkek diploma_Muhendis.pdf" target="_blank">
+                <span class="tatlimor" style="font-size: 7pt">[pdf]</span></a><a href="ImzaKampanyasi2009/diplomalar/erkek diploma_Muhendis.png" target="_blank"><span class="tatlimor" style="font-size: 7pt">[png]</span></a><br />
+            "Bay Mimar" Diploması <a href="ImzaKampanyasi2009/diplomalar/erkek diploma MIMAR.pdf" target="_blank">
+               <span class="tatlimor" style="font-size: 7pt"> [pdf]</span></a><a href="ImzaKampanyasi2009/diplomalar/erkek diploma MIMAR.png" target="_blank"><span class="tatlimor" style="font-size: 7pt">[png]</span></a><br />
+            "Bay Şehir Plancı" Diploması <a href="ImzaKampanyasi2009/diplomalar/erkek diploma SehirPlanci.pdf" target="_blank"><span class="tatlimor" style="font-size: 7pt">[pdf]</span></a><a href="ImzaKampanyasi2009/diplomalar/erkek diploma SehirPlanci.png" target="_blank"><span class="tatlimor" style="font-size: 7pt">[png]</span></a><br />
+            &nbsp;<br />
+            <asp:Image ID="Image2" runat="server" ImageUrl="~/ImzaKampanyasi2009/diplomalar/kadinMimarSmall.png" ImageAlign="Middle" /><br />
+            <br />
+        </span>
+            <br />                 
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/ImzaKampanyasi2009/diplomalar/erkekMimarSmall.png" ImageAlign="Middle" /><br />
+        </td> <!--SOLMENU-->
+        <td style="background-color:white; color: #660099; font-size: 9pt; width:92%; font-family: Arial; height: 873px;" rowspan="1">  
+            <table style="width:99%";>
+            <tr><td style="height: 9px; text-align: justify; "> </td></tr>
+        <tr><td > &nbsp;&nbsp;<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        &nbsp;</asp:ContentPlaceHolder>
+                    &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+                </td> </tr>
+        </table>        
+        </td>
+                
+       <td style="background-color: #ffffff; text-align: center; height: 873px;" align="center">
+           <br />
+           <br />
+           </td>  
+         </tr>
+        <tr style="color: #660099">
+                <td align="center" colspan="3" style="text-align: right; background-color: white;">
+                    <span style="font-size: 8pt">
+                    Son güncelleme tarihi:</span> &nbsp;<cc1:lastmodified
+                        id="LastModified1" runat="server" font-size="8pt"></cc1:lastmodified></td>
+            </tr>
+                   
+        <tr style="color: #660099">
+            <td align="center" colspan="3" style="height: 2px; background-color:#9932cc ">
+               <a href="http://www.kadinmuhendisler.org" target="_blank">
+                <span style="color: #ffffff; font-size: 8pt; font-family: Verdana;"> Kadın Mühendisler,
+                    Mimarlar, Şehir Plancılar, Fen Bilimciler ve Teknik Elemanlar Grubu</span></a></td>
+        </tr>
+    
+        </table>
+     
+        </center>
+ 
+     </form>
+</body>
+</html>

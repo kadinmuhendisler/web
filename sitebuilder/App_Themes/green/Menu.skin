@@ -1,0 +1,11 @@
+﻿<SiteBuilder:SiteMenu runat="server" SkinID="TopMenu">
+	<ItemTemplate><td style="padding-bottom: 0px; padding: 0 10px;"><a href='$Url$' class="menu" >$Title$</a></td></ItemTemplate>
+	<SelectedItemTemplate><td VALIGN="bottom"><img src="$Theme$/images/sep_com_l.gif" /></td><td align="center" class="menu" style="padding-bottom: 0px; width:84px; background-image: url('$Theme$/images/menu-top-bgr.gif'); background-repeat: repeat-x; background-position: bottom;" ><div style="width:84px;"><span></span></div><a href='$Url$' class="theme" >$Title$</a></td><td VALIGN="bottom"><img src="$Theme$/images/sep_com_r.gif" /></td></SelectedItemTemplate>
+	<SeparatorTemplate><td VALIGN="bottom"><img src="$Theme$/images/sep_com.gif" /></td></SeparatorTemplate></SiteBuilder:SiteMenu>
+<SiteBuilder:SiteMenu runat="server" SkinID="SubMenu">
+	<ItemTemplate><tr><td valign="middle" style="padding-left:80px;height:26px;"><a href='$Url$' class="main-menu" >$Title$</a></td></tr></ItemTemplate>
+	<SelectedItemTemplate><tr><td valign="middle" class="main-menu" style="padding-left:80px; background-image: url('$Theme$/images/menu-middle-bgr.gif'); background-repeat: repeat-x; height:26px;" >$Title$</td></tr></SelectedItemTemplate>
+	<SeparatorTemplate><tr><td height="3"><img src="$Theme$/images/sep-menu.gif" /></td></tr></SeparatorTemplate></SiteBuilder:SiteMenu>
+<SiteBuilder:SiteMenu runat="server" SkinID="BottomMenu">
+	<ItemTemplate><td><img src="$Theme$/images/button.gif" /></td><td valign="middle"><div style="width:54px; "><span></span></div><a href='$Url$' class="bottom-menu" >$Title$</a></td></ItemTemplate>
+	<SelectedItemTemplate><td><img src="$Theme$/images/button.gif" /></td><td valign="middle"><div style="width:54px; "><span></span></div><a href='$Url$' class="bottom-menu" >$Title$</a></td></SelectedItemTemplate></SiteBuilder:SiteMenu>

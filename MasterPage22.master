@@ -1,0 +1,444 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage2.master.cs" Inherits="MasterPage2" %>
+<%@ Register Assembly="Tek4.Web.UI.CustomControls.LastModified" Namespace="Tek4.Web.UI.CustomControls.LastModified"
+    TagPrefix="cc1" %>
+<%@ Register Assembly="BasicFrame.WebControls.BasicDatePicker" Namespace="BasicFrame.WebControls"
+    TagPrefix="BDP" %>
+<%@ Register TagPrefix="Tek4"  Namespace="Tek4.Web.UI.CustomControls.LastModified"  Assembly="Tek4.Web.UI.CustomControls.LastModified, Version=1.0.0.0, Culture=neutral, PublicKeyToken=26c804c56bafc725" %>
+ 
+ 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+
+<head runat="server">
+<script type="text/javascript">
+function LogoMouseOverAction()
+{
+   // alert('Logo tasarmýmýzý yapan Cargo Tanýtým\'dan Ekin Haným\'a çok teÞekkür ediyoruz');
+  // popup('Logo tasarmýmýzý yapan Cargo Tanýtým\'dan Ekin Haným\'a çok teÞekkür ediyoruz','lightgreen');
+}
+function mouseOut()
+{
+kill();
+}
+</script>
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1254" />
+<link runat="server" rel="stylesheet" href="kmstyle.css" />
+     <title>Kadýn Mühendisler Grubu</title>
+</head>
+<body style="background-color: #8582B7 ;  margin-top : 60px; background-image:url('images/bgDenemeler.jpg');  margin-bottom: 30px" onload="preloadImages();">
+   
+    <form id="form1" runat="server">
+    <center>       
+    <table border="0" cellpadding="0" cellspacing="0" style="width: 88%; height: 85%" id="TABLE1" onclick="return TABLE1_onclick()">
+        <!--TOP MENU-->
+        <tr>
+            <td align="center" colspan="3" style="height: 98px; text-align: left; background-color:#9932cc;" valign="bottom">
+              <div id="ImageBaslik" align="center" >
+                  <span style="font-size: 24pt">
+                      <br />
+                      <br />
+                      <span style="color: #ffffff; font-size: 16pt;"><strong>Kadýn Mühendisler, Mimarlar, Þehir Plancýlar, 
+                      Fen Bilimciler
+                          ve Teknik&nbsp;
+                          Elemanlar Grubu<br />
+                      </strong>
+                      </span></span>
+              </div></td>
+        </tr> <!--LOGO KM-->
+        <tr>
+          
+          <td colspan="3" align="center" style="text-align: right; height: 2px;  background-color: white; border-bottom-width: thin; border-bottom-color: #9932cc; border-top-style: none; border-right-style: none; border-left-style: none;">
+              
+              <span class="kmTopMenu">
+                  <br />
+                    <a href="Default2.aspx"></a></span></td>
+                </tr> <!-- Date Label-->
+        <tr valign="top">
+        <td style="background-color: white; text-align: left; width: 692px;" align="left" rowspan="2">
+          <!-- SOLMENU -->
+         <table border="0" cellpadding="0" cellspacing="0" width="171">
+                        <tr>
+                            <td align="left" valign="top" style="height: 283px; width: 171px;">
+                              <table id="SolMenu1" class="AnaMenu" runat="server" border="0" style="width: 159px"  cellspacing="0"  cellpadding="0" >
+                                <tr> 
+                                      <td style="width: 182px; height: 28px; text-align: left;">
+                                          &nbsp; &nbsp;&nbsp;
+                                       <a href="Temmuz2013Bulteni.aspx">Ana Sayfa </a>  
+                                     </td> 
+                                 </tr>
+                               
+                                  <tr> 
+                                      <td style="width: 182px; height: 26px; text-align: left;"  >
+                                          &nbsp; &nbsp;&nbsp; <a href="hakkimizda.aspx">Hakkýmýzda</a> 
+                                     </td> 
+                                 </tr>
+                                 <tr>
+                                 <td style="width: 182px; height: 27px; text-align: left;"  >
+                                     &nbsp; &nbsp;&nbsp;
+                                 
+                                 <a href="basindabiz.aspx"> Basýnda Biz </a>
+                                 </td>
+                                 
+                                 </tr>
+                                  
+                                  <tr>
+                                  <td style="width: 182px"  >
+                                    <a href="Fotograflar/Fotograflar.html" target="_blank">  Fotoðraf Albümü</a> 
+                                   </td>
+                                   </tr>
+                                   
+                                  
+                                    <tr><td style="width: 182px; text-align: left;"  >
+                                        &nbsp; &nbsp;&nbsp;
+                                    <a href="agiryazilar.aspx"> Aðýr Yazýlar</a>
+                                    </td>
+                                    </tr>
+                                     <tr>
+                                     <td style="width: 182px; text-align: left;"  >
+                                         &nbsp; &nbsp;&nbsp;
+                                     
+                                     <a href="Onerdiklerimiz.aspx">Önerdiklerimiz </a>
+                                     </td>
+                                     </tr>
+                                     
+                                     <tr>
+                                     <td style="width: 182px; text-align: left;"  >
+                                         &nbsp; &nbsp;&nbsp;
+                                     
+                                     <a href="deneyimlerimiz.aspx"> Deneyimlerimiz</a>
+                                     
+                                     </td></tr>
+                                     <tr>
+                                     <td style="width: 182px; text-align: left;"  >                                     &nbsp; &nbsp;&nbsp;
+                                     <a href="oncukadinlar.aspx"> Öncü Kadýnlar</a></td> </tr>
+                                    
+                                    <tr> <td style="width: 182px; text-align: left;"  >
+                                        &nbsp; &nbsp;&nbsp;
+                                    
+                                    <a href="GDincer.aspx">Röportajlar</a></td></tr>
+                                    
+                                    <tr><td style="width: 182px"  >
+                                    
+                                   <a href="ayrimci_ilanlar.aspx"> Ayrýmcý Ýþ Ýlanlarý</a>
+                                   </td>
+                                   </tr>
+                                   <tr>
+                                   <td style="width: 182px; text-align: left;"  >
+                                   
+                                    <a href="etkinlikler.aspx">&nbsp; &nbsp;&nbsp; Duyurular</a></td></tr> 
+                                                                        <tr>
+                                  <td style="width: 182px; text-align: left;"  >
+                                      &nbsp; &nbsp;&nbsp;
+                                                                     
+                                   <a href="baglantilar.aspx"> Baðlantýlar</a>
+                                   
+                                   </td></tr>
+                                   <tr>
+                                   <td style="width: 182px"  >
+                                   <a href="uyelik.aspx">Ýletiþim ve Üyelik</a>
+                                   </td>
+                          </tr>
+                                </table>
+                                <br />
+                            </td>
+                        </tr>
+                    </table>
+                    <table cellpadding="0" cellspacing="0" width="171">
+                        <tr>
+                            <td align="center" style="height: 20px; text-align: center" valign="middle">
+                            <a href="http://www.kurtajhaktir.com/" target="_blank">
+                                <asp:Image ID="ImageKurtaj" runat="server" ImageUrl="~/images/logolar/Kurtaj_Haktir-4small.jpg" />
+                                </a></td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="height: 20px; text-align: center" valign="middle">
+                                  </td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="height: 20px; text-align: center" valign="middle">
+                                  <asp:HyperLink ID="KadinCinayetleri" NavigateUrl="http://kadincinayetlerineisyandayiz.blogspot.com/" Target="_blank" runat="server">
+                                  <asp:Image ID="Image10" runat="server" AlternateText="http://kadincinayetlerineisyandayiz.blogspot.com/"
+                                    DescriptionUrl="http://kadincinayetlerineisyandayiz.blogspot.com/" Height="230px"
+                                    ImageAlign="Middle" ImageUrl="~/images/logolar/KadinCinayetlerIsyancalisma11.gif"
+                                    Width="159px"/></asp:HyperLink></td>
+                        </tr>
+                  
+                          
+                       
+                       <tr>
+                            <td align="center" style="width: 1427px; height: 7px" valign="middle">
+                                <br />
+                                <a href="BasinAciklamalari.aspx"><span class="tatlimor"> BASIN AÇIKLAMALARI
+                                </span></a></td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="width: 1427px; height: 16px; text-align: left;" valign="middle">
+                                   <a href="BasinAciklamasiArtikOlmekIstemiyoruz.aspx" target="_blank">
+                 <span class="siyahyazibuyuk"> Ocak 2012<br />
+             Artýk Ölmek ýstemiyoruz&nbsp;</span></a><br />
+                                <br /> <a href="HulyaYolcubal.aspx" target="_blank">
+                                 <span class="siyahyazibuyuk">(25/06/10)<br />
+                                    Erkek Þiddetinden Kurtulmuþ Kadýn Yoktur!<br /></span></a>
+                                    <br />
+
+                                 <a href="BasinAciklamasiCerrahGorevdenAlinmalidir.aspx" target="_blank">
+                 <span class="siyahyazibuyuk">  (05/05/09)<br />
+              Celaleddin Cerrah'ýn görevden alýnmasýný talep ediyoruz.&nbsp;</span></a><br />
+                                <br />
+                                 <span class="siyahyazibuyuk">(25/03/08)</span><br />
+                  <a href="SSGSBasinAciklamasi.aspx" target="_blank"><span class="siyahyazibuyuk">
+             SSGS Kadýnlarýn Bildirisi<br 
+                  /></span></a>
+                            </td>
+                        </tr>
+                    </table>
+           
+           
+                 
+       </td> <!--SOLMENU-->
+        <td style="width: 1282517px; background-color:white; color: #660099; font-size: 9pt; font-family: Arial;" rowspan="1">  
+            <table width="100%">
+            <tr><td align="center" style="height: 9px; text-align: justify; width: 100%;">
+            
+            <a href="http://www.kurtajhaktir.com/" target="_blank"> </a></td>
+      </tr>
+        <tr><td style="width: 100%"> 
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        &nbsp;</asp:ContentPlaceHolder>
+                    &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+                </td> </tr>
+        </table>        
+        </td>
+                
+       <td style="background-color: #ffffff; width: 220px;">
+       <table>
+        <tr valign="top" style="color: #660099"><!--LogoTable Row -->
+                <td align="center" style="background-color: white; text-align: right; height: 595px; width: 217px;">
+                    <table id="LogoTable" runat="server" align="center" style="vertical-align:middle">
+                        <tr>
+                            <td align="center" style="width: 1939px; height: 19px; text-align: center" valign="middle">
+                               <a href="Hakkimizda.aspx">
+                                <img id="KM_Logo" runat="server" src="images/logolar/KM.jpg" title="Logo tasarýmýmýzý yapan 
+                                Cargo Tanýtým'dan Ekin Dirik'e çok teÞekkür ederiz. " alt="Logo tasarýmýmýzý yapan 
+                                Cargo Tanýtým'dan Ekin Dirik'e çok teÞekkür ederiz." /></a></td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="width: 1939px; height: 19px; text-align: center" valign="middle">
+                                <strong><span style="color: #9933cc; font-family: Verdana">
+                                    <br />
+                                    BÜLTENLER</span></strong></td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="width: 1939px; height: 18px; text-align: center" valign="middle">
+                                <asp:DropDownList ID="BultenDropDown" runat="server" Width="127px">
+                                <asp:ListItem Value="Mart2014Bulteni">Mart 2014 </asp:ListItem>
+                                <asp:ListItem Value="Temmuz2013Bulteni">Temmuz 2013 </asp:ListItem>
+                                <asp:ListItem Value="Mart2013Bulteni">Mart 2013 </asp:ListItem>
+                                <asp:ListItem Value="Subat2013Bulteni">Subat 2013 </asp:ListItem>
+                                 <asp:ListItem Value="Kasim2012Bulteni">Kasým 2012 </asp:ListItem>
+                                 <asp:ListItem Value="Mayis2012Bulteni">Mayýs 2012 </asp:ListItem>
+                                 <asp:ListItem Value="Mart2012Bulteni">Mart 2012 </asp:ListItem>
+                                 <asp:ListItem Value="Ocak2012Bulteni">Ocak 2012</asp:ListItem>
+                                    <asp:ListItem Value="Kasim2011Bulteni">Kasým 2011</asp:ListItem>
+                                    <asp:ListItem Value="Haziran2011Bulteni">Haziran 2011</asp:ListItem>
+                                    <asp:ListItem Value="Mart2011Bulteni">Mart 2011</asp:ListItem>
+                                    <asp:ListItem Value="Subat2011Bulteni">Þubat 2011</asp:ListItem>
+                                    <asp:ListItem Value="Aralik2010Bulteni">Aralýk 2010</asp:ListItem>
+                                    <asp:ListItem Value="Ekim2010Bulteni">Ekim 2010</asp:ListItem>
+                                    <asp:ListItem Value="Haziran2010Bulteni">Haziran 2010</asp:ListItem>
+                                    <asp:ListItem Value="Mart2010Bulteni">Mart 2010</asp:ListItem>
+                                    <asp:ListItem Value="Subat2010Bulteni">Þubat 2010</asp:ListItem>
+                                <asp:ListItem Value="Aralik2009Bulteni">Aralýk 2009</asp:ListItem>
+                                 <asp:ListItem Value="Kasim2009Bulteni">Kasým 2009</asp:ListItem>
+                                  <asp:ListItem Value="Eylul2009Bulteni">Eylul 2009</asp:ListItem>
+                                    <asp:ListItem Value="Haziran2009Bulteni">Haziran 2009</asp:ListItem>
+                                    <asp:ListItem Value="Mayis2009Bulteni">Mayýs 2009</asp:ListItem>
+                                    <asp:ListItem Value="Nisan2009Bulteni">Nisan 2009</asp:ListItem>
+                                    <asp:ListItem Value="Mart2009Bulteni">Mart 2009</asp:ListItem>
+                                    <asp:ListItem Value="Subat2009Bulteni">Þubat 2009</asp:ListItem>
+                                    <asp:ListItem Value="Aralik2008Bulteni">Aralýk 2008</asp:ListItem>
+                                 <asp:ListItem Value="Kasim2008Bulteni">Kasým 2008</asp:ListItem>
+                                    <asp:ListItem Value="Ekim2008Bulteni">Ekim 2008</asp:ListItem>
+                                <asp:ListItem Value="Eylul2008Bulteni">Eyl&#252;l 2008</asp:ListItem>
+                                    <asp:ListItem Value="Agustos2008Bulteni">Agustos 2008</asp:ListItem>
+                                    <asp:ListItem Value="Temmuz2008Bulteni">Temmuz 2008</asp:ListItem>
+                                    <asp:ListItem Value="HaziranBulteni">Haziran 2008</asp:ListItem>
+                                    <asp:ListItem Value="MayisBulteni">Mayýs 2008</asp:ListItem>
+                                    <asp:ListItem Value="Nisan2008Bulten">Nisan 2008</asp:ListItem>
+                                    <asp:ListItem Value="Mart2008Bulten">Mart 2008</asp:ListItem>
+                                </asp:DropDownList>
+                                &nbsp;&nbsp;
+                                <br />
+                                <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/images/BultenOku.jpg"
+                                    OnClick="ImageButton2_Click" /></td>
+                        </tr>
+                     
+                        
+			<tr>
+			<td align="center" style="width: 1939px; height: 9px" valign="middle">
+                <br />
+                <a href="http://www.tmmob.org.tr" target="_blank">
+                                <asp:Image ID="TMMOB" runat="server" ImageUrl="~/images/logolar/TMMOBlogo.jpg" />
+                </a><br />
+                            </td>
+
+			</tr>
+                          <tr>
+                            <td align="center" style="width: 1939px; height: 19px; text-align: center" valign="middle">
+                                <strong><span style="color: #9933cc; font-family: Verdana">
+                                    <br />
+                                   BAZI KADIN ÖRGÜTLERÝ</span></strong></td>
+                        </tr>
+                                <tr>
+                                <td style="width: 1939px; height: 368px;" rowspan="3">
+                                <div class="marquebox">
+                                <center>
+                                <table id="logoTablosu" width="90%">
+                                <tr>
+                                <td style="height: 10px; width: 194px;" align="center">
+                               <a href="http://www.morcati.org.tr" target="_blank">
+                                    <asp:Image ID="Image3" runat="server" ImageUrl="~/images/logolar/alomorcati.gif" Height="66px" Width="159px" /></a></td>
+                                </tr>
+                                    <tr>
+                                        <td style="width: 194px; height: 18px">
+                                         <a href="http://sosyalistfeministkolektif.org/" target="_blank">
+                                            <asp:Image ID="SosyalistFeministKolektif" runat="server" Height="99px" ImageUrl="~/images/logolar/sosyalistfeminist.jpg"
+                                                Width="161px" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 194px; height: 18px">
+                                        <a href="http://www.petrol-is.org.tr/kadin" target="_blank">
+                                            <asp:Image ID="PetrolIsKadinDergisi" runat="server" ImageUrl="~/images/logolar/PetrolIsKadin.jpg" ImageAlign="Middle" Width="161px" /></a></td>
+                                    </tr>
+                                       <tr>
+                                        <td style="width: 194px; height: 18px">
+                                        <a href="http://www.ucansupurge.org" target="_blank">
+                                            <asp:Image ID="Image7" runat="server" ImageUrl="~/images/logolar/UcanSupurgeLogo.jpg" /></a></td>
+                                    </tr>
+                                     <tr>
+                                        <td style="width: 194px; height: 18px">
+                                        <a href="http://www.vakad.org.tr/" target="_blank">
+                                            <asp:Image ID="VAKAD" runat="server" ImageUrl="~/images/logolar/vakad_02.jpg" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 194px; height: 18px;">
+                                         <a href="http://www.mediz.org" target="_blank">
+                                            <asp:Image ID="Image2" runat="server" ImageUrl="~/images/logolar/mediz.jpg" /></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 194px; height: 18px">
+                                        <a href="http://www.ka-der.org.tr/" target="_blank">
+                                         <asp:Image ID="Image8" runat="server" ImageUrl="~/images/logolar/kader.gif" /></a>
+</td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 194px; height: 16px">
+                                         <a href="http://www.kadinayoneliksiddet.org/index.html" target="_blank">
+                                            <asp:Image ID="KadinaYonelikSiddet" runat="server" ImageUrl="~/images/logolar/KadinaYonelikSiddet.jpg" Width="165px"/></a></td>
+                                    </tr>
+                                    <tr>
+                                   
+                                        <td style="width: 194px; height: 16px">
+                                   <a href="http://www.kazete.com.tr" target="_blank">
+                                            <asp:Image ID="Image9" runat="server" Height="61px" ImageUrl="~/images/logolar/Kazete.JPG"                                        
+                                                Width="159px" /></a></td>
+                                    </tr>
+                                <tr>
+                                 
+                                <td style="height: 18px; width: 194px;"><center>
+                                <a href="http://www.feminisite.net" target="_blank">
+                                    <asp:Image ID="Image5" runat="server" ImageUrl="~/images/logolar/feministyaklasimlar.jpg" Height="61px" Width="159px" /></a></center></td>
+                               
+                               
+                                </tr>
+                                
+                                <tr>
+                                <td style="width: 194px; height: 21px" >
+                                 <center>
+                                 <a href="http://www.amargi.org.tr" target="_blank">
+                                    <asp:Image ID="Image4" runat="server" Height="42px" ImageUrl="~/images/logolar/amargi.jpg"
+                                        Width="159px" />
+                                        
+                                    </a>
+                                    
+                                    </center>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td style="width: 194px; height: 42px" >
+                                 <center>
+                                 <a href="http://www.keig.org" target="_blank">
+                                    <asp:Image ID="keigLogo" runat="server" ImageUrl="~/images/logolar/keig.gif"
+                                        Width="159px" />
+                                        
+                                    </a>
+                                    
+                                    </center>
+                                </td>
+                                </tr>
+                                <tr>
+                                <td style="height: 19px; width: 194px;">
+                                <center>
+                                <a href="http://www.filmmor.org" target="_blank">
+                                    <asp:Image ID="Image6" runat="server" ImageUrl="~/images/logolar/filmmor.jpg" /></a></center></td>
+                                </tr>
+                                </table> </center></div>
+                                    </td>
+                                </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                        </tr>
+                                          
+                    </table>
+                
+                               </td>
+            </tr>
+         
+       </table>
+       </td>  
+         </tr>
+        <tr style="color: #660099">
+                <td align="center" colspan="3" style="text-align: right; background-color: white; height: 16px;">
+                    <span style="font-size: 8pt">
+                    Son güncelleme tarihi:</span> &nbsp;<cc1:lastmodified
+                        id="LastModified1" runat="server" font-size="8pt"></cc1:lastmodified></td>
+            </tr>
+        <tr style="color: #660099">
+               <td align="center" colspan="3" style="background-color: #9932cc">
+            <a href="http://www.kurtajhaktir.com/" target="_blank"> <asp:Image
+                    ID="Image1" runat="server" ImageAlign="Middle" ImageUrl="~/images/logolar/Kurtaj_Pankart-small.jpg" /></a></td>
+        
+        </tr>
+            
+        <tr style="color: #660099">
+            <td align="center" colspan="3" style="width: 9642px; height: 2px; background-color:#9932cc ">
+               
+               <span class="tatlimor">
+                   <br />
+                <a href="Temmuz2013Bulteni.aspx"> <span style="color: #ffffff; font-size: 8pt; font-family: Verdana;">Ana Sayfa </span></a> <span style="color: #ffffff; font-size: 8pt; font-family: Verdana;">
+                    | </span><a href="hakkimizda.aspx"> <span style="color: #ffffff; font-size: 8pt; font-family: Verdana;">Hakkýmýzda </span></a>
+                   <span style="color: #ffffff; font-size: 8pt; font-family: Verdana;">| </span><a href="basindabiz.aspx"><span style="color: #ffffff; font-size: 8pt; font-family: Verdana;">
+                       Basýnda Kadýn Mühendisler </span></a><span style="color: #ffffff; font-size: 8pt; font-family: Verdana;">| </span><a href="agiryazilar.aspx"> 
+                           <span style="color: #ffffff; font-size: 8pt; font-family: Verdana;">Yazýlar </span></a><span style="color: #ffffff; font-size: 8pt; font-family: Verdana;">| </span>
+                   <a href="uyelik.aspx"><span style="color: #ffffff; font-size: 8pt; font-family: Verdana;">
+                       Ýletiþim ve Üyelik </span>
+                 </a>   
+                   <span style="color: #ffffff; font-size: 8pt; font-family: Verdana;">| </span><a href="baglantilar.aspx"><span style="color: #ffffff; font-size: 8pt; font-family: Verdana;">
+                       Baðlantýlar </span></a> 
+                   <br />
+                 </span>
+                </td>
+        </tr>
+    
+        </table>
+     
+        </center>
+ 
+     </form>
+</body>
+</html>

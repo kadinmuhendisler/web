@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery title="14-15 Kasim 2009, Istanbul" frameColor="0xFFFFFF" frameWidth="10" imagePadding="20" displayTime="6">
+<image>
+   <filename>img1.jpg</filename>
+   <caption></caption>
+   <width>720</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>img2.jpg</filename>
+   <caption></caption>
+   <width>720</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>img3.jpg</filename>
+   <caption></caption>
+   <width>720</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>img31.jpg</filename>
+   <caption></caption>
+   <width>720</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>img32.jpg</filename>
+   <caption></caption>
+   <width>720</width>
+   <height>480</height>
+</image>
+
+<image>
+   <filename>img4.jpg</filename>
+   <caption></caption>
+   <width>720</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>img41.jpg</filename>
+   <caption></caption>
+   <width>341</width>
+   <height>512</height>
+</image>
+
+<image>
+   <filename>img5.jpg</filename>
+   <caption></caption>
+   <width>720</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>img6.jpg</filename>
+   <caption></caption>
+   <width>720</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>img61.jpg</filename>
+   <caption></caption>
+   <width>720</width>
+   <height>480</height>
+</image>
+
+<image>
+   <filename>img7.jpg</filename>
+   <caption></caption>
+   <width>341</width>
+   <height>512</height>
+</image>
+<image>
+   <filename>img71.jpg</filename>
+   <caption></caption>
+   <width>720</width>
+   <height>480</height>
+</image>
+
+
+<image>
+   <filename>img8.jpg</filename>
+   <caption></caption>
+   <width>720</width>
+   <height>480</height>
+</image>
+
+<image>
+   <filename>img9.jpg</filename>
+   <caption></caption>
+   <width>720</width>
+   <height>480</height>
+</image>
+
+<image>
+   <filename>img10.jpg</filename>
+   <caption></caption>
+   <width>341</width>
+   <height>512</height>
+</image>
+
+
+</gallery>

@@ -1,0 +1,921 @@
+﻿/* base colors:
+	#f8f9fb
+	#f6f7fa ... very light
+	#edeff5
+	#c8cfe1
+	#9ca9ca
+	#7d8eb9
+	#6478ac
+	#435b9a ... BASE
+	#2c3b64
+	#1c2741 ... very dark
+*/
+
+body {
+	font-family: "Arial","Lucida Sans Unicode",Tahoma,sans-serif;
+	background-color: white; color: #696969;
+	margin:0px; padding:0px; border:0px;
+	line-height:150%;
+	min-width:700px;
+	font-size:12px;
+	text-align:justify;  
+	}
+
+
+	/*#696969
+.siyahyazibuyuk
+{
+	font-family:Tahoma, Lucida Sans, Arial;
+	color:#1c2741;
+	font-size:11px;
+	text-align:justify;
+}*/
+
+.siyahyazibuyuk
+{
+	
+	font-family:Tahoma, Lucida Sans, Arial;
+	color:black;
+	font-size:9pt;
+	text-align:justify;
+	}
+
+.yazininDevami
+{   font-family:Tahoma;
+	color: #663399;
+	font-weight:bold;
+}
+
+
+.yazininDevami a:link{color:#9932cc; text-decoration:none; }
+.yazininDevami a:visited{ color: #00cc00; text-decoration:none; font-weight:bold}
+.yazininDevami a:hover{color: #00cc00; text-decoration:none;font-weight:bold}
+
+.icTabloBas { background: white; color: #30A2E8; font-weight: bold; text-align: left; }
+
+.icTabloAcik { background: #EEF0F7; color: #3982B0; text-align: left; }
+
+.icTabloKoyu { background: #D2D8E6; color: #3982B0; text-align: left; }
+
+.icTablo { border: 1px solid white; }
+
+.icBorder { border-right: 1px solid white; }
+
+.anaTablo { background: white;  width:700px; } 
+
+
+.AnaMenu {
+border-style: none;
+border-width: 0;
+}
+.AnaMenu td {
+font-family:Tahoma, Arial;
+font-size: 9pt;
+font-weight: bold;
+text-align: center;
+color: #9932cc;
+background-image: url('images/fem_logo/mor.jpg');
+background-repeat:no-repeat;
+width:171px;
+height:27px;
+}
+
+.yazarBilgileri
+{
+	font-family:Tahoma;
+	font-size:8pt;
+	color:black;
+	
+	}
+
+
+
+.AnaMenu td a {
+color: #9932cc;
+text-decoration: none;
+}
+.AnaMenu td a:hover {
+
+color: #cc0066;
+text-decoration: none;
+
+}
+
+
+.marqueyazisi
+{
+	font-family:Tahoma, Arial;
+	font-size:8pt;
+	color:Black;
+	}
+
+.oncukadinlarDiv
+{  text-align:justify;
+	margin-top: 15px;
+	margin-bottom:15px;
+	margin-left:10px;
+ margin-right:10px;
+ border-bottom:solid 1px #9932cc;
+	}
+
+.feminaDiv
+{  text-align:justify;
+	margin-top: 15px;
+	margin-bottom:15px;
+	/* background-image:url('8Mart2009/femina2.jpg');*/
+  background-repeat: no-repeat;
+	margin-left:10px;
+ margin-right:10px;
+ border-bottom:solid 1px #9932cc;
+
+  
+	}
+
+.baslik1
+{
+	font-family: Arial, Helvatica, Tahoma ;
+    font-size: 12pt;
+    color:#cc0066;
+    font-weight:bold;
+    text-align:left;
+          
+	}
+	
+	.baslik2
+{
+	font-family: Arial, Helvatica, Tahoma ;
+    font-size: 12pt;
+    color:#cc0066;
+    font-weight:bold;
+    text-align:center;
+          
+	}
+	
+	.pembebuyukbaslik
+	{
+	font-family: Arial, Helvatica, Tahoma ;
+    font-size: 10pt;
+    color:#cc0066;
+    font-weight:bold;
+    text-align:center;
+          
+	}
+	.tatlimor{color: #9933cc; font-weight:bold; font-family:Tahoma, Arial, Lucida Sans; font-size:9pt;}
+	
+	.yazibasligi
+	{font-family: Arial, Helvatica, Tahoma ;
+    font-size: 14pt;
+    color:#9933cc;
+    font-weight:bold;
+    text-align:center;
+    line-height:30px;}
+
+.kmTablo
+{
+	border: solid 1px #995432;
+	background-color: White;
+	text-align: justify;
+	font-family:Tahoma, Arial, Lucida Sans;
+	font-size: 11px;
+	
+	}
+
+
+.solMenu 
+{
+	text-align:left;
+	font-family: Tahoma, Arial, Lucida Calligraphy; 
+	color: #9966ff;
+	font-size: 10pt;
+	font-style:normal;
+	font-weight:bold;
+	vertical-align: middle;
+	background-image:url('~/images/mor.jpg');
+}
+
+solMenuBaslik2
+{   text-align  :left;
+	font-family: Tahoma, Arial, Lucida Calligraphy; 
+	font-size: 9pt;
+	font-style:normal;
+	color:#9966ff;
+	font-weight:bold;
+	vertical-align: middle;
+	background-image:url('~/images/mor.jpg');
+}
+
+
+.Duyurularimagebox img
+{
+	border:1px solid #cc0066;
+	vertical-align:middle;
+	background-color:White;
+	caption-side:bottom;
+	display:inline;
+	width:60px;
+}
+	
+
+	
+	
+.solMenu a:link
+{
+	
+	clear:both;
+	text-align:left;
+	color:#383153;
+	font-family: Tahoma, Arial, Lucida Calligraphy; 
+	font-size: 11px;
+	font-style:normal;
+	font-weight:bold;
+	vertical-align: middle;
+	text-decoration:none;
+	background-image:url('~/images/mor.jpg');
+	}
+	
+	
+	.solMenu a:hover
+{
+	background-image:url('~/images/yesil.jpg');
+	}
+	
+	.solMenu a:visited
+	{
+		text-decoration:none;
+		}
+	
+	
+.YaziKutusu
+{
+	clear:both;
+	background-color:white;
+	font-family:Tahoma;
+	font-size:11px;
+	text-align:justify;
+	border: dashed 1px #9932cc;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-indent: 12px; 
+		
+	}
+	
+kmTopMenu {
+	clear:both;
+	color:	#9932cc;
+    text-align:right;
+    font-size: 11px;
+    font-weight:bold;
+       }
+    
+.kmTopMenu a:link {
+    color:	#ffffff;
+    font-family: Tahoma, Arial;
+    text-decoration:none;
+    line-height: 200%;
+     font-weight:bold;
+    }
+    
+ .ayinKonusu
+ {
+	color:white ;
+	text-align: center;
+	
+	
+	}
+ 
+ .duyuruBuyukBaslik
+ {
+	color:#00cc00;
+	font-family:Tahoma, Arial;
+	font-size:12pt;
+	font-weight:bold;
+	
+	
+	}
+ .duyuruHr
+ {
+	font-family: Tahoma, Arial, Times New Roman; 
+	font-size: 10pt;
+	color: #00cc00;
+	text-align: left;
+	border-bottom: dashed 1px  #9966ff;
+	
+	}
+	
+
+	
+	.yesilboldbaslik
+{ font-size: 9pt; 
+ color : #00cc00;
+ font-weight:bold;
+ font-family:Tahoma, Arial;
+ text-align: center;
+ 
+ }
+ 
+ .yesilboldbasliklink
+ {font-size: 9pt; 
+ color : #00cc00;
+ font-weight:bold;
+ font-family:Tahoma, Arial;
+ text-align: center;
+ }
+ .yesilboldbasliklink a:link
+ {
+	color : #00cc00;}
+
+ .yesilboldbasliklink a:hover
+ {
+	color : #9966ff;}
+
+ .yesilboldbasliklink a:visited
+ {
+	color : #9966ff;}
+
+	
+.solMenubuyuk
+{ font-size: 9pt; 
+ color : #00cc00;
+ font-weight:bold;
+ font-family:Tahoma, Arial;
+ text-align:left;
+ background-image:url('~/images/fem_logo/mor.jpg');
+ }
+	
+
+.solMenubuyuk a:link
+{ font-size: 8pt; 
+ color : #00cc00;
+ font-weight:bold;
+ text-decoration:none;
+ font-family:Tahoma, Arial;
+ }
+
+.solMenubuyuk a: hover
+{ font-size: 8pt; 
+ color : #00cc00;
+ font-weight:bold;
+ text-decoration:none;
+ font-family:Tahoma, Arial;
+ }
+
+.solMenubuyuk a: visited
+{ font-size: 8pt; 
+ color : #7064A5;
+ font-weight:bold;
+ text-decoration:none;
+ font-family:Tahoma, Arial;
+ }
+ 	 
+.kmTopMenu a:visited{ color: #ffffff; text-decoration:none; font-weight:bold; font-family:Arial; font-size:10pt}
+.kmTopMenu a:hover{color: #66cc66; text-decoration:none;font-weight:bold}
+    
+    
+.topmenu {color: #ffff00; font: arial ; font-weight:bold; font-size:12px; text-decoration: none;}
+
+
+a { color:#696969; border: none; margin: 1px; }
+a:link { color:#696969; }
+a:visited { color:#696969; }
+a:hover, a:active,a:focus { color:#9966ff; }
+
+
+a.topanchor { margin:0px; }
+
+dt { font-weight:bold; margin-top:2ex; }
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Lucida Sans","Lucida Sans Unicode",Tahoma,sans-serif;
+	color:#435b9a;
+	line-height:110%;
+	font-size:medium;
+	text-align:justify;
+	}
+
+/*h2,h3,h4,h5,h6 {
+	margin-top:2ex;
+	}	
+*/
+.article-title {
+	font-family: "Lucida Sans Unicode",Tahoma,sans-serif;
+	color:#435b9a;
+	font-weight:bold;
+	margin-bottom:.1em;
+	margin-top: .3em;
+	text-align:justify;
+	}
+
+tr.even { background-color:#f6f7fa; }
+.alt { background-color:#edeff5; }
+
+
+table.schedule { border: 2px solid black !important; }
+table.schedule tr { background: white; text-align:center; }
+table.schedule td { padding-top: .5ex; padding-bottom: .5ex; border: 1px solid lightgrey; }
+.break {
+	background-color: #edeff5;
+	/* color:#435b9a; */
+	text-align:center;
+	}
+.firstcol {
+	background-color: #edeff5;
+	border-right: 1px solid black !important;
+	border-left: 1px solid black !important;
+	}
+
+.break .firstcol {
+	background-color: #c8cfe1;
+	}
+
+
+tr.break td {
+	background-color: #edeff5;
+	/* color:#435b9a; */
+	}
+
+table.schedule th {
+	background-color:#c8cfe1;
+        padding:0pt 4pt;
+	border-bottom: 1px solid black !important;
+	}
+
+/* th div {
+        opacity:1; 
+        filter: alpha(opacity=100);
+        } */
+	
+th.th2 {
+	background-color:white;
+	color:#003893;
+	font-size:large;
+	padding:20px 0px 10px 0px;
+	}
+	
+th.projname {
+	background-color:#F1F4FA;
+	color:#003893;
+    font-size:large;
+    padding:10px 10px 10px 10px;
+    }
+    
+td { padding:0pt 4pt; vertical-align:top; }
+
+td a { text-decoration:none; }
+
+td img {
+	border:0px;
+	}
+	
+td.label {
+	text-align:right;
+	font-weight:bold;
+	}
+	
+td.divider {
+	padding-right:3em;
+	background-color:white;
+	}
+	
+td.right {
+	text-align:right;
+	}
+         	
+table.lotsoftext td { padding:8pt 4pt; }
+	
+tr.ieven { background-color:#F1F4FA; }
+	
+tr.ieven td { padding:0pt 4pt; }
+
+tr.iodd td { padding:0pt 4pt; }
+
+
+/* Structural styles */
+
+#title {
+    height:91px;
+	background-color:#435b9a;
+	border-bottom: 4px solid #7d8eb9;
+    overflow:hidden;
+    }
+
+#title #titletext {
+    position:absolute;
+    top:12px; left:0px; right:62px; height:63px;
+	font-family: "Trebuchet MS",Tahoma,sans-serif;
+	font-weight:bold; 
+    padding:0px 0px 0px 144px;
+    height:1.4em;
+	font-size:26px;
+	line-height:96%;
+	}
+	
+#title #titletext span {
+	font-size: 80%;
+	}
+
+#title #titletext a {
+    text-decoration:none;
+    color:white;
+    }
+
+#title-bg1 {
+    position:absolute;
+    top:0px; left:144px; width:auto; height:91px;
+    overflow:hidden;
+	background:url(img/titlebar-bg-right.jpg) right top no-repeat;
+    }
+
+#title-bg1 div.image {
+	float:right;
+	top: 0px; width:850px; height:91px;
+	}
+
+#title-bg2 {
+    position:absolute;
+    top:0px; left:0px; width:144px; height:91px;
+    background:url(img/titlebar-bg-left.jpg) left top;
+    }
+
+#title-bg3 {
+/*    position:absolute;
+    top:0px; left:0px; width:98%; height:63px;
+    background:url(img/header-b.jpg) 300px top no-repeat; */
+    }
+	
+
+#title #unilogo {
+    position:absolute;
+    top:3px; right:3px; width:62px; height:85px;
+    background:transparent;
+    }
+
+#title #unilogo img { border:0px; }
+    
+#title #instlogo {
+    position:absolute;
+    top:10px;
+    right:50px;
+    }
+    
+#title #instlogo img { border:0px; }
+
+#title #satnexlogo {
+    position:absolute;
+    top:0px;
+    left:0px;
+    }
+
+#title #satnexlogo img { border:0px; }
+
+
+#topbar {
+	padding: 0px 12pt 0px 24pt;
+	border-left:16.5em solid #FFFAF0;
+	}
+
+#topbar span {
+     
+    }
+
+#topbar-right {
+	float:right;
+	 
+	}
+
+#menu {
+	float:left;
+	width:14.5em;
+	padding:1ex 1em 3ex 1em;
+	overflow:auto;
+	background:#f6f7fa;
+    overflow:hidden;
+	}
+
+#menu p { 
+    font-weight:bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+#menu p a { text-decoration:none; }
+
+#menu div p { 
+    font-weight:normal;
+    margin-left:10px;
+    margin-top:0px;
+    }
+#menu div p a { text-decoration:none; }
+
+#menu div div p { margin-left:20px; }
+#menu div div p a { text-decoration:none; }
+
+
+
+#main {
+	padding:1ex 12pt 1ex 24pt;
+	border-left:16.5em solid #f6f7fa;
+/*	background: url(img/satnex-logo-bg.jpg) center center no-repeat; */
+	text-align:justify;
+	}
+
+#bottom-menu {
+	clear:both;
+	border-top: 4px solid #7d8eb9;
+	border-bottom: 4px solid #7d8eb9;
+	background: #435b9a;
+	font-weight:bold;
+	color:white;
+    text-align:center;
+    font-size: smaller;
+    }
+    
+#bottom-menu a {
+    color:white;
+    text-decoration:none;
+    line-height: 200%;
+    }
+	
+#bottom {    /* copyright */
+	clear:both;
+	color: #aaaaaa;
+	padding-top: 1ex;
+	padding-bottom: 3em;
+	text-align:center;
+	font-size:smaller;
+	}
+
+#bottom a {
+    text-decoration:none;
+    }
+	
+.bottom-text {
+	color: #99AFD4;
+	font-size: x-small;
+	padding-top:1ex;
+	padding-left: 24pt;
+	}
+	
+/* various styles */
+.serif {
+	font-family:Georgia,"Bookman Old Style","Times New Roman",serif;
+	}
+
+.logobox {
+	float:right;
+	text-align:center;
+	margin:1em;
+	}
+	
+.logobox a { border:none; margin:0px; }
+	
+.logo {
+	border:none;
+	margin: 1px;
+	padding:10px;
+	}
+
+.logo:hover { margin: 0px; border: 1px dashed #CCD7E9; }
+
+	
+.ruler {
+	border:none;
+	height:1px;
+	background-color:#435b9a;
+	color:#435b9a;
+	text-align:center;
+	}
+
+.footnote {
+	font-size:x-small;
+	color:#3360A9;
+	}
+
+.cleverquote {
+	text-align:right;
+	font-style:oblique;
+	font-size:smaller;
+	}
+
+.picturebox { /* general class for (centered) illustrative images */
+	text-align:center;
+	margin:10pt auto;
+	padding-bottom:0pt;
+	}
+
+.picturebox div {
+	font-size:smaller;
+	text-align:center;
+	}
+	
+.headline {
+	background-color:#F1F4FA;
+    color:#003893;
+    font-size:large;
+    font-weight:bold;
+    padding:10px;
+    margin-left:-10px;
+    margin-bottom:5px;
+    margin-top:25px;
+	}	
+
+.subline {
+	font-size:medium;
+	}
+	
+.totop {
+	/* float:right; */
+	text-align:right;
+	font-size:x-small;
+	font-weight:bold;
+	}
+	
+.totop a {
+	text-decoration: none;
+	color:#3360A9;
+	}
+
+.form-required-star { color:red; }
+
+.indent {
+	margin-top: .5em;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	}
+
+.biopic {
+	float:right;
+	padding:.2em 2em 2em 2em;
+	}
+
+.leftpadded {
+	margin-left:10em;
+	}
+
+.lmargintext {
+	margin-top:1em;
+	margin-left:-10em;
+	color:#435b9a;
+	font-weight:bold;
+}
+
+.smallh {
+	font-weight:bold;
+	font-size:110%;
+	}
+
+.minih {
+	font-weight: bold;
+	color: #435b9a;
+	margin-top:1ex;
+	margin-bottom:1ex;
+	}
+	
+.highlightbox {
+	border: 1px solid #993366;
+	background-color: white;
+	padding:.5em;
+	vertical-align:middle;
+	text-align:justify;
+	}
+
+
+highlightbox.yazi
+{
+	font-family:Tahoma, Arial, Lucida Sans;
+	color: #FFFFE0;
+	text-align:justify;
+	
+}
+
+.marquebox
+{border: 2 px solid #cc0066;
+ background-color: white;
+ vertical-align:middle;
+ text-align:center;
+ border-right:2px dotted  #cc0066;
+ border-top:  2px dotted #cc0066;  
+ border-left: 2px dotted #cc0066 ; 
+ border-bottom: 2px dotted #cc0066; 
+ }
+
+a.topmenu 
+{
+}
+ 
+.yazimarquee
+{
+	font-family:Tahoma, Arabic Transparent, Arial;
+	color: blue;
+	text-align: center;
+	font-weight:normal;
+	font-size:9px;
+}
+
+.doviztable
+{
+	background-color:White;
+	}
+	
+	.yazarBlogu
+{
+	font-family:Tahoma, Arial;
+	font-size:8pt;
+	font-style:italic;
+	color:Black;
+		}
+
+.dovizdiv
+{   
+	border: 2px solid #8582B7;
+	background-color:white;
+	vertical-align: middle;
+	text-align:center;
+	
+}
+ 
+
+	
+.picrow {
+	vertical-align:middle;
+	}
+
+.inlinepicbox {
+	float: left;
+	text-align:center;
+	}
+
+.inlinepicbox a img {
+	border:none;
+	}
+
+.keynotebox {
+	float:left;
+	text-align:center;
+	padding: .5em;
+	margin-right: 2em;
+	margin-bottom: 1em;
+	border: 1px solid #9ca9ca;
+	width:20em;
+	min-width:180px;
+	}
+
+.keynotebox .picbox { height: 270px; }
+
+.keynotebox a img {
+	border: 0px;
+	}
+
+p.sessionchair {
+	margin-top:-1ex;
+	margin-bottom:1.5ex;
+	color:#435b9a;
+	}
+
+p.session {
+	margin-top: 1ex; margin-bottom:1ex;
+	margin-left: 2em;
+	}
+
+.floatunit {
+	overflow:hidden;
+	}
+
+
+/* format modifications for printing */
+    
+@media print,embossed {
+
+#menu {
+	visibility:hidden;
+	position:absolute;
+	right:0px;
+	width:10.5em;
+	}
+
+#topbar-right {
+    visibility:hidden;
+    }
+
+#topbar {
+	border-left:0px;
+	padding-left:0px;
+	padding-right:0px;
+	}
+    
+#main {
+	border-left:0px;
+	padding-left:0px;
+	padding-right:0px;
+	}
+
+.totop {
+	visibility:hidden;
+	}
+	
+
+	
+	
+}
+
+	

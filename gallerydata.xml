@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery title="Kadın Muhendisler" frameColor="0xFFFFFF" frameWidth="10" imagePadding="20" displayTime="6">
+<image>
+   <filename>example.jpg</filename>
+   <caption>Pellentesque turpis leo, dignissim ac, vestibulum quis, hendrerit quis, enim.</caption>
+   <width>640</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>example.jpg</filename>
+   <caption>Pellentesque turpis leo, dignissim ac, vestibulum quis, hendrerit quis, enim.</caption>
+   <width>640</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>example.jpg</filename>
+   <caption>Pellentesque turpis leo, dignissim ac, vestibulum quis, hendrerit quis, enim.</caption>
+   <width>640</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>example.jpg</filename>
+   <caption>Pellentesque turpis leo, dignissim ac, vestibulum quis, hendrerit quis, enim.</caption>
+   <width>640</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>example.jpg</filename>
+   <caption>Pellentesque turpis leo, dignissim ac, vestibulum quis, hendrerit quis, enim.</caption>
+   <width>640</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>example.jpg</filename>
+   <caption>Pellentesque turpis leo, dignissim ac, vestibulum quis, hendrerit quis, enim.</caption>
+   <width>640</width>
+   <height>480</height>
+</image>
+<image>
+   <filename>example.jpg</filename>
+   <caption>Pellentesque turpis leo, dignissim ac, vestibulum quis, hendrerit quis, enim.</caption>
+   <width>640</width>
+   <height>480</height>
+</image>
+</gallery>
